@@ -43,9 +43,7 @@ var heightsInInches = [66, 64, 60, 52, 72, 80, 51]
 
 
 function inchToFeet(arrInches){
-    const res = []
-    for(inches of arrInches){
-        res.push(inches / 12)}
+    const res = arrInches.map(n => n / 12);
     return res
 }
 
